@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Student Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+
+
+<body>
+    <nav id="desktop-nav">
+        <div class="logo"><img src="./assets/pierre.gif" width="70"></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#personal interests/hobbies">Personal Interests/Hobbies</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <nav id="hamburger-nav">
+        <div class="logo">AISLE CONTAPAY</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#personal interests/hobbies" onclick="toggleMenu()">Personal Interests/Hobbies</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+   
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/snowy-day.jpg" alt="background photo" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">&#10014;</p>
+            <h1 class="title">AISLE CONTAPAY</h1>
+            <p class="section__text__p2">Graphic designer, Illustrator, 3D artist</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <p class="section__text__p1">&#9733;</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.png.jpg" alt="Aisle Contapay Profile Picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <!-- <h3>&#10032</h3> -->
+                        <div class="text-container">
+                            <br>
+                            <p><font size="5">Born and raised in Baguio City, Philippines. 
+                            <br>
+                            <br>
+                            <br>
+                            I love creating art; it's definitely my biggest passion in life.
+                            <br>Grew up seeing the world in different colors, used it to escape reality and merge with art instead. I love looking at things in a different perspective, it helps with gaining inspiration and turning the most mundane thing in the world into something special.</font></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section id="personal interests/hobbies">
+        <p class="section__text__p1">&#9733;</p>
+        <h1 class="title">Personal Interests/Hobbies</h1>
+        <div class="personal interests/hobbies-details-container">
+            <div class="about-containers">
+                <div class="personal interests/hobbies-containers">
+                    <h2 class="personal interests/hobbies-sub-title">Surrealism speaks of mystery and eerieness</h2>
+                    <br>
+                    <p><font size="6">I like to dive deep into the unknown—things that people usually find uneasy—and try to emulate the feeling that provokes the inner psyche. It's an occuring theme within my works.
+                    <br>
+                    <br>
+                    I think a lot of my inspirations come from a lot of Horror films/games, Indie films, documentaries, or just a lot of niche works. I'm a huge fan of works that depicts anything Horror, or something that has to do with the psychology of the human brain.</font>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <P class="section__text__p1">&#9733;</P>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+        </div>
+        <div class="container">
+            <div class="box">
+                <img src="./assets/cerb.png" alt="cerb">
+            </div>
+            <div class="box">
+                <img src="./assets/that's totally normal.png" alt="that's totally normal">
+            </div>
+            <div class="box">
+                <img src="./assets/Saji.png" alt="Saji">
+            </div>
+            <div class="box">
+                <img src="./assets/I Hated Him Anyway.png" alt="I Hated Him Anyway">
+            </div>
+            <div class="box">
+                <img src="./assets/Exposure.png" alt="Exposure">
+            </div>
+        </div>
+        <div class="container">
+            <div class="box">
+                <img src="./assets/ARTIFACT.png" alt="ARTIFACT">
+            </div>
+            <div class="box">
+                <img src="./assets/Telophase.png" alt="Telophase">
+            </div>
+            <div class="box">
+                <img src="./assets/jelly.png" alt="jelly">
+            </div>
+            <div class="box">
+                <img src="./assets/IMPUTRESCO.png" alt="IMPUTRESCO">
+            </div>
+            <div class="box">
+                <img src="./assets/MORS.png" alt="MORS">
+            </div>
+            <div class="box">
+                <img src="./assets/save me from my own faith.png" alt="save me from my own faith">
+            </div>
+        </div>
+        <div class="container">
+            <div class="box">
+                <img src="./assets/ThREShOLD0000-0192 (1).gif" alt="ThREShOLD">
+            </div>
+            <div class="box">
+                <img src="./assets/catharsis30000-0192.gif" alt="catharsis">
+                </div>
+    </section>
+
+    <div>
+    <div>
+    <section id="contact">
+        <p class="section__text__p1">&#9733;</p>
+        <h1 class="title">Contact Me!</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" width="50" alt="Email icon" class="icon contact-icon"/>
+                <p><a href="mailto:contapayaisle@gmail.com">contapayaisle@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#personal interests/hobbies">Personal Interests/Hobbies</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Aisle Contapay. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
